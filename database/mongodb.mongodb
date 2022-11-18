@@ -1,0 +1,13 @@
+'Crear DB'
+
+use ('JM0')
+
+db.encuestas.insertOne({
+  "nombreEncuesta": 'Encuesta',
+  "fecha": '11/02/2023',
+  "documentoEncuestado": '1033178140',
+  "nombreEncuestado": 'Juliana',
+  "edad": 18,
+  "genero": 'Femenino',
+  "empleado": 'si'
+})
